@@ -55,10 +55,11 @@ ___
 
 ### Links for Heroku Deployment and GitHubDeployment
 <br>
-Heroku: https://note-taker7.herokuapp.com/
+Heroku: https://node-burgers.herokuapp.com/
 <br><br>
-GitHub: https://ccraig7321.github.io/Note-Taker/
+GitHub:  https://ccraig7321.github.io/Node-Express-Handlebars/
 <br><br>
+Portfolio Link: https://ccraig7321.github.io/Responsive-Portfolio/
 
 
 ### License
