@@ -1,38 +1,23 @@
-<h1>Burgers!</h1>
+<h1>Eat the Burgers!</h1>
+<div class="container">
+    <div class="row">
+        <div>
+            <input id="burgerName">
+            <button id="makeBurger">Make Burger</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h3>Make the Burger</h3>
+            <ul id="undevoured">Uneaten Burgers</ul>
+        </div>
 
-<div>
-    <input id="burgerName">
-    <button id="makeBurger">Make Burger</button>
-</div>
-<div class="row">
-    <div class="col-4">
-        <ul id="undevoured">Uneaten Burgers</ul>
+        <div class="col-4">
+            <h3>DEVOUR THE BURGER!!</h3>
+            <ul id="devoured">Devoured Burgers</ul>
+        </div>
     </div>
 
-    <div class="col-4">
-        <ul id="devoured">Devoured Burgers</ul>
-    </div>
+    <script src="/assets/js/script.js"></script>
+
 </div>
-
-{{!--
-Make input box for burger name,
-Make a button to make a post request to create the burger,
-$.ajax({
-  type: "POST",
-  url: url,
-  data: {name: cheeseburger},
-  success: success, (call back function)
-  dataType: json ??? 
-});
-Make funcion that get all the burgers and then takes them and places on the left and right
-    updateAllBurgers(){
-        get all data (ajax)
-            subfunction that make panels                                    
-            devoured burgers = panel in right col
-            undevoured burgers = panel in left col
-            store burger id in the data property of the button
-            button clicks to delete burger with the id stored in data property by making api put request to /api/burger/:id and takes in updateAllBurgers at a callback
-    }
- --}}
-
- <script src="/assets/js/script.js"></script>

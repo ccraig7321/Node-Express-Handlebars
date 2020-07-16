@@ -1,6 +1,9 @@
 body{
     background-color: thistle;
-}
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbCHZsllzeal8jfN-ceu8CSsMpeuk_KReBUg&usqp=CAU");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 100vh;}
 
 h1{
     background-color: red;
@@ -8,3 +11,10 @@ h1{
     color: white;
 }
 
+.burgerName{
+    text-align: center;
+}
+
+h3{
+    color: orange;
+}
