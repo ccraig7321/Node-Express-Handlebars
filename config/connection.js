@@ -4,7 +4,7 @@ require('dotenv').config({path: path.join(__dirname, "../.env")});
 console.log(process.env.password)
 console.log(path.join(__dirname, "../.env"))
 
-var connection = mysql.createConnection("mysql://nlo5f7b3v722enpj:wfeuir4ctuzmfkwe@q3vtafztappqbpzn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qjz71mm9kavbc52r")
+var connection = mysql.createConnection(process.env.hostURL)
 
 // var connection = mysql.createConnection({
 //     host: "q3vtafztappqbpzn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
